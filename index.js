@@ -1,2 +1,2 @@
 var arr = [];
-var last = {};
+var last = {name: "dong"};
