@@ -70,7 +70,10 @@
         deleteLove(key) {
           this.$delete(this.loveList, key)
         },
-      }
+      },
+      updated() {
+        let a = "ding"
+      },
     })
     vm.goodsList.forEach(item => vm.$set(item, 'index', 0))
   </script>
